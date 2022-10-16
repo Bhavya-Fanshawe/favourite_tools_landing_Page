@@ -2,8 +2,28 @@ $main-bg: #2E2E2E;
 $main-colour: white;
 
 
-$h1: 3.75rem;
-$h2: 2rem;
-$h3: 1.3rem;
-$h4: 1.125rem;
-$p: 1rem;
+.h1 {
+    font-size: 3.75rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.h2 {
+    font-size: 2rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.h3 {
+    font-size: 1.3rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.h4 {
+    font-size: 1.125rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.p {
+    font-size: 1rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
