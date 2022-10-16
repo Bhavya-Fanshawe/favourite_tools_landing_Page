@@ -1,0 +1,14 @@
+.body {
+    background-color: $main-bg;
+    color: $main-colour;
+
+    // more generic rules here
+}
+
+.main-container {
+    background-image: url(/favourite_tools_landing_Page-adding-preloader/images/start\ page.png);
+    background-repeat: no-repeat, repeat;
+    background-size: 75%;
+    background-position: center center;
+    z-index: 10;
+}

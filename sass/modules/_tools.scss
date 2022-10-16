@@ -1,0 +1,35 @@
+.tools-grid {
+    display:grid;
+    grid-column: 1fr, 1fr, 1fr, 1fr;
+    column-gap: 24px;
+}
+
+.tools {
+    background-color: $main-bg;
+}
+
+.integrations-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+
+}
+
+.link {
+    color: #E9EDC9;
+    text-decoration: underline;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.title-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 64px;
+
+}

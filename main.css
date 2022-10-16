@@ -1,0 +1,7 @@
+.popup-screen {
+    display: none;
+    position: fixed;
+    left: 10%;
+    top: 10%;
+    background-color: #EEEEEE;
+}
