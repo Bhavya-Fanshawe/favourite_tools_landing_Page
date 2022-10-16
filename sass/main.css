@@ -1,0 +1,229 @@
+.body {
+  background-color: #2E2E2E;
+  color: white;
+}
+
+.main-container {
+  background-image: url(/favourite_tools_landing_Page-adding-preloader/images/start\ page.png);
+  background-repeat: no-repeat, repeat;
+  background-size: 75%;
+  background-position: center center;
+  z-index: 10;
+}
+
+@media screen and (min-width: 768px) {
+  #tools-grid-layout {
+    display: grid;
+    /* fit as many items as possible in the grid container using minmax.
+        Make each item's min width 170 pixels and its max width 1 fraction
+        The grid system will divide up the available space and fit them in
+    */
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  }
+}
+.herosection {
+  width: 100vw;
+  height: 100vh;
+  /* Flexbox stuff */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Text styles */
+  text-align: center;
+}
+
+.popup-screen {
+  background: rgba(46, 46, 46, 0.6);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.tools-grid {
+  display: grid;
+  grid-column: 1fr, 1fr, 1fr, 1fr;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+}
+
+.tools {
+  background-color: #2E2E2E;
+}
+
+.integrations-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.link {
+  color: #E9EDC9;
+  text-decoration: underline;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.title-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin-bottom: 64px;
+}
+
+.primary-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9.78408px 11.0071px 9.78408px 34.2443px;
+  gap: 18.35px;
+  position: relative;
+  width: 319px;
+  height: 76.78px;
+  background: #747474;
+  box-shadow: 0px 14.6761px 29.3522px rgba(0, 0, 0, 0.18);
+  border-radius: 61.1505px;
+  font-size: 1.125rem;
+  color: white;
+}
+
+.primary-button:hover {
+  background: #616161;
+  box-shadow: none;
+}
+
+.primary-button:active {
+  background: #444444;
+  box-shadow: none;
+}
+
+.secondary-cta {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7.94053px 13.8959px;
+  gap: 7.94px;
+  background: #E9EDC9;
+  border: 1px solid #9FAC39;
+  border-radius: 49.6283px;
+  color: #717A29;
+  width: auto;
+  margin-top: 48px;
+}
+
+.icon-right {
+  height: 32px;
+  width: 32px;
+  fill: #717A29;
+}
+
+.modal-base {
+  width: 40%;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 35px;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  color: #2e2e2e;
+}
+
+.popup-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 14.83px;
+}
+
+.popup-header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.line {
+  border: 1px solid #8E8E8E;
+  height: 1px;
+}
+
+.icon-regular {
+  width: 32px;
+  height: 32px;
+  fill: #2e2e2e;
+}
+
+.description-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 73px;
+}
+
+.users-tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6.64516px 11.629px;
+  gap: 6.65px;
+  background: #EBEBEB;
+  border-radius: 41.5323px;
+}
+
+.icon-right {
+  height: 32px;
+  width: 32px;
+  fill: #717A29;
+}
+
+.tool-card-styling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 17.2987px;
+  gap: 17.3px;
+  background: #242424;
+  border-radius: 11.5325px;
+}
+
+.tool-card-styling:hover {
+  background: #333333;
+  border: 2px solid #BCBCBC;
+  box-shadow: 12px 12px 32px rgba(70, 70, 70, 0.25);
+  cursor: pointer;
+}
+
+.tool-title {
+  font-size: 1.375rem;
+}
+
+.tool-details {
+  font-size: 1rem;
+  color: #888;
+}
+
+.toolcard-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
