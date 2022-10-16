@@ -1,0 +1,23 @@
+{
+    "notion": {
+        "name":"Notion",
+        "subTitle": "notion subtitle",
+        "description":"Notion lorem",
+        "userText": "6M+" ,
+        "email": "notion@mail.com"
+    },
+    "figma": {
+        "name":"Figma",
+        "subTitle": "figma subtitle",
+        "description":"Figma lorem",
+        "userText": "1M+" ,
+        "email": "figma@mail.com"
+    },
+    "slack": {
+        "name":"Slack",
+        "subTitle": "Slack subtitle",
+        "description":"Slack lorem",
+        "userText": "10M+" ,
+        "email": "slack@mail.com"
+    }
+  }
