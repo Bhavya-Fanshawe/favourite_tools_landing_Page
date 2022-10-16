@@ -1,6 +1,7 @@
 .body {
     background-color: $main-bg;
     color: $main-colour;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 
     // more generic rules here
 }
@@ -11,4 +12,5 @@
     background-size: 75%;
     background-position: center center;
     z-index: 10;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
